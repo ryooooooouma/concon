@@ -1,0 +1,17 @@
+{
+ "name": "concon-model",
+ "version": "0.0.1",
+ "private": true,
+ "scripts": {
+  "start": "node app"
+ },
+ "dependencies": {
+  "async": "*",
+  "diskusage": "*",
+  "express": "*",
+  "moment": "*",
+  "nodemailer": "^4.4.2",
+  "sprintf-js": "*",
+  "uuid": "*"
+ }
+}
