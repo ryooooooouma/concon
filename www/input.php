@@ -8,36 +8,8 @@
 <link rel="stylesheet" href="css/pages.css">
 </HEAD>
 <BODY>
-<div align="cetner">
-<table align=center>
-<tr>
-<td width="15%">
- <!-- Languages -->
- <ul id="Languages">
-  <li>"concon"とは</li>
-  <li>Espanish</li>
-  <li>Portgal</li>
-  <li>Chinese</li>
-  <li><img src="./images/country.jpg">Japanese</li>
- </ul>
-</td>
-<td>
-<img border="1" src="./images/logo.jpg"
- title="サービス名CONCON"
-alt="CONCONのサイトへようこそ">
-</td>
-<td width="15%">
- <ul id="Config">
-  <li>ユーザ詳細入力</li>
-  <li>個人ユーザページ</li>
-  <li>依頼検索ページ</li>
- </ul>
-
-</td>
-</table>
-</div>
+<?php include "header.php"; ?>
 <div class="pagediv">
-
 <p class="cnt_p_1">応募登録フォーム</p>
 <dl class="cnt_dl">
 <dt>名前</dt><dd><input type="text"></dd>
@@ -50,7 +22,6 @@ alt="CONCONのサイトへようこそ">
 <dt>PR</dt><dd><input type="textbox"></dd>
 </dl>
 <input type="submit" class="sbm">
-
 </div>
  
 </BODY>
