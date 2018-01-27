@@ -1,0 +1,11 @@
+ログインフォーム
+Sign in as user
+
+メールアドレス
+email
+
+パスワード
+password
+
+ログインする
+Sign in
