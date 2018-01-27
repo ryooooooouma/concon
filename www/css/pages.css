@@ -1,7 +1,16 @@
 .pagediv{
     margin:3% auto;
 }
+.sbm {
+    border: none;
+    width:  100%;
+    padding: 2% 0%;
+    background-color: #eb6100;
+    color: #fff;
+    margin: 3% auto;
+}
 p.cnt_p_1 {
+    text-align:center;
     font-size:  120%;
     margin-bottom: 1%;
 }
