@@ -16,6 +16,8 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 	margin:0; padding:0; 		/*全要素のマージン・パディングをリセット*/
 }
 body {
+	width: 640px;
+        margin: 0 auto;
 	background-color:#FFFFFF;	/*ページ全体の背景色*/
 	background-image:url("images/bg.jpg");	/*ウェブページ全体の背景画像*/
 	font-size:95%;			/* フォントサイズを95%にする */
