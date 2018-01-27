@@ -1,0 +1,9 @@
+新規登録フォーム
+Sign up for new user
+
+メールアドレス
+email
+
+情報を登録する
+Sign up
+
