@@ -1,5 +1,5 @@
 新規登録フォーム
-Sign up for new user
+Sign up as new user
 
 メールアドレス
 email
