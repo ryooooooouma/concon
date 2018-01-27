@@ -25,7 +25,7 @@ img{
 	margin:0; padding:0; 		/*全要素のマージン・パディングをリセット*/
 }
 body {
-	width: 640px;
+	width: 100%;
         margin: 0 auto;
 	background-color:#FFFFFF;	/*ページ全体の背景色*/
 	background-image:url("images/bg.jpg");	/*ウェブページ全体の背景画像*/
