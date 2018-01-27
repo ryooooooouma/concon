@@ -1,0 +1,22 @@
+User application
+
+名前
+Name
+
+住所
+Address
+
+TEL
+Phone
+
+FAX
+FAX
+
+URL
+URL
+
+SNS
+SNS
+
+画像
+Your image photo
