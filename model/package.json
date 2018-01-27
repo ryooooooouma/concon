@@ -7,6 +7,8 @@
  },
  "dependencies": {
   "async": "*",
+  "csv": "^2.0.0",
+  "csvsync": "^1.0.1",
   "diskusage": "*",
   "express": "*",
   "moment": "*",

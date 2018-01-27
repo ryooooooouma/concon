@@ -13,6 +13,7 @@ function loadFile(path, callback) {
 function get_buys() {
 	loadFile(server + "/api/get_buys", function(text) {
 		var buys = JSON.parse(text);
+		console.log(buys);
 	});
 }
 
