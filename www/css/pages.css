@@ -1,3 +1,26 @@
+dl.detail_dl {
+    display: flex;
+}
+
+dl.detail_dl dt img {
+    width: 100%;
+}
+
+dl.detail_dl dt {
+    width: 30%;
+}
+
+dl.detail_dl dd {
+    width:  65%;
+    margin-left: 3%;
+}
+
+p.detailview_3 {
+    text-align:  center;
+    margin:  3% 0%;
+    font-weight:  bold;
+    font-size: 130%;
+}
 .detailview {
     border: 3px solid #ff8100;
     padding: 2%;
