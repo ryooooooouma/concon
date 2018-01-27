@@ -126,13 +126,15 @@ async
 			users = JSON.parse(fs.readFileSync('data/users.json', 'utf8'));
 			logins = JSON.parse(fs.readFileSync('data/logins.json', 'utf8'));
 			buys = JSON.parse(fs.readFileSync('data/buys.json', 'utf8'));
+			callback(null);
 		},
 		function(callback) {// start up websocket server
-			console.log("websocket server starting up");
+			console.log("api server starting up");
 			var app = require('express')();
 			http = require('http').Server(app);
 			app
 				.get('/api/add_user', function(req, res) {
+					console.log("add_user");
 					var params = url.parse(req.url, true).query.params || {};
 					console.log(params);
 					var user = {
@@ -158,6 +160,7 @@ async
 				});
 			app
 				.get('/api/login', function(req, res) {
+					console.log("login");
 					var params = url.parse(req.url, true).query.params || {};
 					var user = get_user(params.mail_address);
 					if (!user) {
@@ -189,6 +192,7 @@ async
 				});
 			app
 				.get('/api/buy_request', function(req, res) {
+					console.log("buy_request");
 					var params = url.parse(req.url, true).query.params || {};
 					var login = get_login(params.login_key);
 					if (!login) {
@@ -220,6 +224,7 @@ async
 				});
 			app
 				.get('/api/sell_request', function(req, res) {
+					console.log("sell_request");
 					var params = url.parse(req.url, true).query.params || {};
 					var login = get_login(params.login_key);
 					if (!login) {
@@ -246,7 +251,12 @@ async
 					sendMail(seller.mail_address, "sell", "done");
 					res.end(JSON.stringify(ret));
 				});
-			app.get('/api/get_buy_list', function(req, res) {
+			app.get('/api/get_users', function(req, res) {
+				console.log("get_users");
+				res.end(JSON.stringify(users));
+			});
+			app.get('/api/get_buys', function(req, res) {
+				console.log("get_buys");
 				res.end(JSON.stringify(buys));
 			});
 			app.use(express.static('www'));// this need be set
