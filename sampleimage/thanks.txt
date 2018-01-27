@@ -1,0 +1,8 @@
+新規登録フォーム
+Sign up for new user
+
+新規登録ありがとうございます
+お送りいただいたメールアドレスに記載のURLをクリックしてください。
+
+Thank you very much for sign up.
+To continue, click url in the email we sent.
