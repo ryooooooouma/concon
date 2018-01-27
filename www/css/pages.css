@@ -1,0 +1,28 @@
+p.cnt_p_1 {
+    font-size:  120%;
+    margin-bottom: 1%;
+}
+
+dl.cnt_dl {
+    overflow: hidden;
+}
+
+dl.cnt_dl dt {
+    float:  left;
+    width: 20%;
+    clear:  left;
+    padding: 1% 0%;
+}
+
+dl.cnt_dl dd {
+    float:  left;
+    width: 70%;
+    padding: 1% 0%;
+}
+
+input[type="text"] {
+    width:  100%;
+    border: none;
+    height: 29px;
+    background-color:  #f6f2e6;
+}
