@@ -1,0 +1,35 @@
+<HTML>
+ <HEAD>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE>CONCON</TITLE>
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/concon.css">
+<link rel="stylesheet" href="css/pages.css">
+</HEAD>
+<BODY>
+<div class="pagediv">
+
+<div class="detailview">
+<p class="detailview_1">飲食店で開催する外国人イベントの補助</p>
+<ul class="detailul">
+<li>今プラス</li>
+<li>英語圏</li>
+<li>湖南市</li>
+</ul>
+<img src="images/top_img.jpg">
+<p class="detailview_2">イギリス人のお客さんが貸しきりでイベントを開催します。当日店内で配膳などの補助をしながらお客さんと通訳してくれる人を求めます。</p>
+<a href="" class="link_1">この内容に応募する</a>
+</div>
+</div>
+
+
+<p class="detailview_3">他の依頼も見る</p>
+<dl class="detail_dl">
+<dt><img src="images/detail_1.jpg"></dt>
+<dd>琵琶湖一周ウォーキング大会の補助</dd>
+</dl>
+
+
+</BODY>
+</HTML>
