@@ -1,0 +1,26 @@
+
+/*============================================
+全般的なスタイル
+============================================*/
+* {
+	margin:0; padding:0; 		/*全要素のマージン・パディングをリセット*/
+}
+body {
+	background-color:#FFFFFF;	/*ページ全体の背景色*/
+	background-image:url("images/bg.jpg");	/*ウェブページ全体の背景画像*/
+	font-size:95%;			/* フォントサイズを95%にする */
+	font-family: "ＭＳ ゴシック",sans-serif; /* フォントの種類をゴシック系にする */
+	line-height:1.5; 		/* 行の高さを1.5倍にする */
+	color:#333333; 			/* 文字色を濃い目のグレーにする */
+}
+div#pagebody {
+	width:1000px; margin:0 auto;	/*内容全体をセンタリング*/
+	background-color:#ffffff;	/*内容全体の背景色*/
+/*	background-image:url("images/concon.jpg");	/*コンテンツ全体の背景画像*/
+	background-repeat:repeat-y;	/*背景画像を縦方向に繰り返す*/
+}
+
+#menu li {
+	list-style-type:none;	/*リストマーカー無しにする*/
+	display:inline;		/*リスト項目をインライン表示にする*/
+}
